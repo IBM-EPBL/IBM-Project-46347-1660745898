@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ====== Favicon ====== -->
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/png" />
+    <!-- ====== Boxicons ====== -->
+    <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+    <!-- ====== Swiper CSS ====== -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- ====== Custom CSS ====== -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Fashion Shop</title>
+</head>
+<script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "614a4315-ff80-4187-8fe4-2fd9b506b723", // The ID of this integration.
+        region: "au-syd", // The region your integration is hosted in.
+        serviceInstanceID: "9670dcf8-789f-4609-8d7a-6e25c412a9ec", // The ID of your service instance.
+        onLoad: function(instance) {
+            instance.render();
+        }
+    };
+    setTimeout(function() {
+        const t = document.createElement('script');
+        t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') +
+            "/WatsonAssistantChatEntry.js";
+        document.head.appendChild(t);
+    });
+</script>
+
+<body>
+    <!-- ====== Collection ====== -->
+    <section class="section collection">
+        <div class="title">
+            <span>COLLECTION</span>
+            <h2>Our Top Collection</h2>
+        </div>
+        <div class="filters d-flex">
+            <div data-filter="Jewellery">Jewellery</div>
+            <div data-filter="Accessories">Accessories</div>
+            <div data-filter="Dresses">Dresses</div>
+            <div data-filter="Footwear">Footwear</div>
+        </div>
+
+        <div class="products container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper" id="products">
+                    <div class="swiper-slide">
+                        <div class="product">
+                            <div class="top d-flex">
+                                <img src="./images/product-1.png" alt="" />
+                                <div class="icon d-flex">
+                                    <i class="bx bxs-heart"></i>
+                                </div>
+                            </div>
+                            <div class="bottom">
+                                <h4>Nike Air Men’s Hoodie - Imported Hoodie Red</h4>
+                                <div class="d-flex">
+                                    <div class="price">₹550</div>
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                        <i class="bx bxs-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="products container">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper" id="products">
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="top d-flex">
+                                    <img src="./images/product-2.png" alt="" />
+                                    <div class="icon d-flex">
+                                        <i class="bx bxs-heart"></i>
+                                    </div>
+                                </div>
+                                <div class="bottom">
+                                    <h4>skirt women's - ladies's suit blue</h4>
+                                    <div class="d-flex">
+                                        <div class="price">₹950</div>
+                                        <div class="rating">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="products container">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper" id="products">
+                            <div class="swiper-slide">
+                                <div class="product">
+                                    <div class="top d-flex">
+                                        <img src="./images/product-3.png" alt="" />
+                                        <div class="icon d-flex">
+                                            <i class="bx bxs-heart"></i>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <h4>Apple i watch - silver rubber strap</h4>
+                                        <div class="d-flex">
+                                            <div class="price">₹4150</div>
+                                            <div class="rating">
+                                                <i class="bx bxs-star"></i>
+                                                <i class="bx bxs-star"></i>
+                                                <i class="bx bxs-star"></i>
+                                                <i class="bx bxs-star"></i>
+                                                <i class="bx bxs-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products container">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper" id="products">
+                                <div class="swiper-slide">
+                                    <div class="product">
+                                        <div class="top d-flex">
+                                            <img src="./images/product-4.png" alt="" />
+                                            <div class="icon d-flex">
+                                                <i class="bx bxs-heart"></i>
+                                            </div>
+                                        </div>
+                                        <div class="bottom">
+                                            <h4>Air Men’s Cooler's- Multi colour</h4>
+                                            <div class="d-flex">
+                                                <div class="price">₹150</div>
+                                                <div class="rating">
+                                                    <i class="bx bxs-star"></i>
+                                                    <i class="bx bxs-star"></i>
+                                                    <i class="bx bxs-star"></i>
+                                                    <i class="bx bxs-star"></i>
+                                                    <i class="bx bxs-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pagination">
+                            <div class="custom-pagination"></div>
+                        </div>
+                    </div>
+    </section>
+
+    <!-- ====== New Arrival ====== -->
+    <section class="section new-arrival">
+        <div class="title">
+            <span>NEW ARRIVAL</span>
+            <h2>Latest Collection</h2>
+        </div>
+
+        <div class="row container">
+            <div class="col col-1">
+                <img src="./images/poster-1.png" alt="" />
+                <h3>
+                    2021 Trends <br /> Women’s Smart Skirt
+                </h3>
+            </div>
+            <div class="col col-2">
+                <img src="./images/poster-2.png" alt="" />
+                <h3>
+                    2021 Trends <br /> Women’s Smart Skirt
+                </h3>
+            </div>
+            <div class="col col-3">
+                <img src="./images/poster-3.png" alt="" />
+                <h3>
+                    2021 Trends <br /> Women’s Smart Shirt <br />
+                    <span>Discover More:</span>
+                </h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== Categories ====== -->
+    <section class="section categories">
+        <div class="title">
+            <span>CATEGORIES</span>
+            <h2>2021 Latest Collection</h2>
+        </div>
+
+        <div class="products container">
+            <div class="product">
+                <div class="top d-flex">
+                    <img src="./images/product-5.png" alt="" />
+                    <div class="icon d-flex">
+                        <i class="bx bxs-heart"></i>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="d-flex">
+                        <h4>Printed Shirt - Cotten Material</h4>
+                        <a href="" class="btn cart-btn">Add to Cart</a>
+                    </div>
+                    <div class="d-flex">
+                        <div class="price">₹750</div>
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="products container">
+            <div class="product">
+                <div class="top d-flex">
+                    <img src="./images/product-6.png" alt="" />
+                    <div class="icon d-flex">
+                        <i class="bx bxs-heart"></i>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="d-flex">
+                        <h4>Sony Headphones - for Gameing</h4>
+                        <a href="" class="btn cart-btn">Add to Cart</a>
+                    </div>
+                    <div class="d-flex">
+                        <div class="price">₹5450</div>
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="products container">
+            <div class="product">
+                <div class="top d-flex">
+                    <img src="./images/product-7.png" alt="" />
+                    <div class="icon d-flex">
+                        <i class="bx bxs-heart"></i>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="d-flex">
+                        <h4>Handmade Bags - for Office </h4>
+                        <a href="" class="btn cart-btn">Add to Cart</a>
+                    </div>
+                    <div class="d-flex">
+                        <div class="price">₹2150</div>
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="products container">
+            <div class="product">
+                <div class="top d-flex">
+                    <img src="./images/product-8.png" alt="" />
+                    <div class="icon d-flex">
+                        <i class="bx bxs-heart"></i>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="d-flex">
+                        <h4>Football Boots - with sharp needles</h4>
+                        <a href="" class="btn cart-btn">Add to Cart</a>
+                    </div>
+                    <div class="d-flex">
+                        <div class="price">₹950</div>
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="products container">
+            <div class="product">
+                <div class="top d-flex">
+                    <img src="./images/product-9.png" alt="" />
+                    <div class="icon d-flex">
+                        <i class="bx bxs-heart"></i>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="d-flex">
+                        <h4>Modern Sofas heals - Merun Red</h4>
+                        <a href="" class="btn cart-btn">Add to Cart</a>
+                    </div>
+                    <div class="d-flex">
+                        <div class="price">₹1150</div>
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="products container">
+            <div class="product">
+                <div class="top d-flex">
+                    <img src="./images/product-10.png" alt="" />
+                    <div class="icon d-flex">
+                        <i class="bx bxs-heart"></i>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="d-flex">
+                        <h4>logitech - Gameing mouse </h4>
+                        <a href="" class="btn cart-btn">Add to Cart</a>
+                    </div>
+                    <div class="d-flex">
+                        <div class="price">₹1150</div>
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="products container">
+            <div class="product">
+                <div class="top d-flex">
+                    <img src="./images/product-11.png" alt="" />
+                    <div class="icon d-flex">
+                        <i class="bx bxs-heart"></i>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="d-flex">
+                        <h4>Realme Airpods - hQ 001(version-5)</h4>
+                        <a href="" class="btn cart-btn">Add to Cart</a>
+                    </div>
+                    <div class="d-flex">
+                        <div class="price">₹1150</div>
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="products container">
+            <div class="product">
+                <div class="top d-flex">
+                    <img src="./images/product-12.png" alt="" />
+                    <div class="icon d-flex">
+                        <i class="bx bxs-heart"></i>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="d-flex">
+                        <h4>Samsaung smart watch - Imported Watch blue</h4>
+                        <a href="" class="btn cart-btn">Add to Cart</a>
+                    </div>
+                    <div class="d-flex">
+                        <div class="price">₹1480</div>
+                        <div class="rating">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="button d-flex">
+            <a class="btn loadmore" link="load" href="https://www.amazon.in/s?k=modern+dress+for+men+stylish&adgrpid=57802141086&ext_vrnc=hi&gclid=Cj0KCQjwk5ibBhDqARIsACzmgLTiBWaJOREQSvwn2pz6XFw5CqXLzAVTgFeCu3PADM95KJHG_JEp4aoaAroiEALw_wcB&hvadid=380037112028&hvdev=c&hvlocphy=1007811&hvnetw=g&hvqmt=b&hvrand=6622843879145823838&hvtargid=kwd-934297070151&hydadcr=23434_1935760&tag=googinhydr1-21&ref=pd_sl_4y92ytkove_b">Load More</a>
+        </div>
+    </section>
+    </header>
+</body>
+
+</html>

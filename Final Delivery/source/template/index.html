@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ====== Favicon ====== -->
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/png" />
+    <!-- ====== Boxicons ====== -->
+    <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+    <!-- ====== Swiper CSS ====== -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- ====== Custom CSS ====== -->
+     <link rel="stylesheet" href="css/styles.css" />
+    <title>Fashion Shop</title>
+</head>
+<script>
+    window.watsonAssistantChatOptions = {
+        integrationID: "614a4315-ff80-4187-8fe4-2fd9b506b723", // The ID of this integration.
+        region: "au-syd", // The region your integration is hosted in.
+        serviceInstanceID: "9670dcf8-789f-4609-8d7a-6e25c412a9ec", // The ID of your service instance.
+        onLoad: function(instance) {
+            instance.render();
+        }
+    };
+    setTimeout(function() {
+        const t = document.createElement('script');
+        t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') +
+            "/WatsonAssistantChatEntry.js";
+        document.head.appendChild(t);
+    });
+</script>
+
+
+<body>
+    <!-- ====== Header ====== -->
+    <header class="header ">
+        <!-- ====== Navigation ====== -->
+        <nav class="navbar ">
+            <div class="row container d-flex ">
+                <div class="logo ">
+                    <img src="./images/logo.png " alt=" " />
+                </div>
+
+                <div class="nav-list d-flex ">
+                    <a href=" ">Home</a>
+                    <a href="./shop.html ">Shop</a>
+                    <a href=" ">Pages</a>
+                    <a href=" ">About Us</a>
+                    <a href=" ">Lookups</a>
+                    <div class="close ">
+                        <i class="bx bx-x "></i>
+                    </div>
+                    <a class="user-link ">Login</a>
+                </div>
+
+                <div class="icons d-flex ">
+                    <div class="icon d-flex "><i class="bx bx-search "></i></div>
+                    <div class="icon user-icon d-flex ">
+                        <i class="bx bx-user "></i>
+                    </div>
+                    <div class="icon d-flex ">
+                        <i class="bx bx-bell "></i>
+                        <span></span>
+                    </div>
+                </div>
+
+                <!-- Hamburger -->
+                <div class="hamburger ">
+                    <i class="bx bx-menu-alt-right "></i>
+                </div>
+            </div>
+        </nav>
+
+        <!-- ====== Hero Area ====== -->
+        <div class="hero ">
+            <div class="row container d-flex ">
+                <div class="col ">
+                    <span class="subtitle ">Limited Time Only For Winter</span>
+                    <h1>fash<span class="i ">i</span>on</h1>
+                    <p>LOOK YOUR BEST ON YOUR BEST DAY</p>
+
+                    <button class="btn ">Explore Now!</button>
+                </div>
+                <img src="./images/woman-in-cart.png " alt=" " />
+            </div>
+        </div>
+    </header>
+    <!-- ====== Collection ====== -->
+    <section class="section collection ">
+        <div class="title ">
+            <span>COLLECTION</span>
+            <h2>Our Top Collection</h2>
+        </div>
+        <div class="filters d-flex ">
+            <div data-filter="Jewellery ">Jewellery</div>
+            <div data-filter="Accessories ">Accessories</div>
+            <div data-filter="Dresses ">Dresses</div>
+            <div data-filter="Footwear ">Footwear</div>
+        </div>
+        <!-- ====== Login and Signup Form ====== -->
+        <div class="user-form ">
+            <div class="close-form d-flex "><i class="bx bx-x "></i></div>
+            <div class="form-wrapper container ">
+                <div class="user login ">
+                    <div class="img-box ">
+                        <img src="./images/login.svg " alt=" " />
+                    </div>
+                    <div class="form-box ">
+                        <div class="top ">
+                            <p>
+                                Not a member?
+                                <span data-id="#ff0066 ">Register now</span>
+                            </p>
+                        </div>
+                        <form action=" ">
+                            <div class="form-control ">
+                                <h2>Hello Again!</h2>
+                                <p>Welcome back you've been missed.</p>
+                                <input type="text " placeholder="Enter Username " />
+                                <div>
+                                    <input type="password " placeholder="Password " />
+                                    <div class="icon form-icon ">
+                                        <!-- <img src="./images/eye.svg " alt=" " /> -->
+                                    </div>
+                                </div>
+                                <span>Recovery Password</span>
+                                <button type="submit" onclick="">login</button>
+                            </div>
+                            <div class="form-control ">
+                                <p>Or continue with</p>
+                                <div class="icons ">
+                                    <div class="icon ">
+                                        <img src="./images/search.svg " alt=" " />
+                                    </div>
+                                    <div class="icon ">
+                                        <img src="./images/apple.svg " alt=" " />
+                                    </div>
+                                    <div class="icon ">
+                                        <img src="./images/facebook.svg " alt=" " />
+                                    </div>
+                                    <div class="icon ">
+                                        <img src="./images/github.svg " alt=" " />
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Register -->
+                <div class="user signup ">
+                    <div class="form-box ">
+                        <div class="top ">
+                            <p>
+                                Already a member?
+                                <span data-id="#1a1aff ">Login now</span>
+                            </p>
+                        </div>
+                        <form action=" ">
+                            <div class="form-control ">
+                                <h2>Welcome javadoc!</h2>
+                                <p>It's good to have you.</p>
+                                <input type="email " placeholder="Enter Email " />
+                                <div>
+                                    <input type="password " placeholder="Password " />
+                                    <div class="icon form-icon ">
+                                        <img src="./images/eye.svg " alt=" " />
+                                    </div>
+                                </div>
+                                <div>
+                                    <input type="password " placeholder="Confirm Password " />
+                                    <div class="icon form-icon ">
+                                        <img src="./images/eye.svg " alt=" " />
+                                    </div>
+                                </div>
+                                <button type="submit" onclick="alert('successfully Register')">Register</button>
+                            </div>
+                            <div class="form-control ">
+                                <p>Or continue with</p>
+                                <div class="icons ">
+                                    <div class="icon ">
+                                        <img src="./images/search.svg " alt=" " />
+                                    </div>
+                                    <div class="icon ">
+                                        <img src="./images/apple.svg " alt=" " />
+                                    </div>
+                                    <div class="icon ">
+                                        <img src="./images/facebook.svg " alt=" " />
+                                    </div>
+                                    <div class="icon ">
+                                        <img src="./images/github.svg " alt=" " />
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="img-box ">
+                        <img src="./images/trial.svg " alt=" " />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ====== SwiperJs ====== -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js "></script>
+
+        <!-- ====== Custom Script ====== -->
+        <script src="./js/product.js "></script>
+        <script src="./js/main.js "></script>
+</body>
+
+</html>
